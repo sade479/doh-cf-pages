@@ -1,7 +1,7 @@
-const doh = 'https://security.cloudflare-dns.com/dns-query'
+const doh = 'https://ordns.he.net/dns-query'
 const dohjson = 'https://security.cloudflare-dns.com/dns-query'
 const contype = 'application/dns-message'
-const jstontype = 'application/dns-json'
+const jstontype = 'adsfadsfasdfasdfadsfsa'
 
 export const onRequestGet = async ({request}) => {
 	 const { method, headers, url } = request 
